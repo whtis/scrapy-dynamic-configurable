@@ -2,12 +2,14 @@
 
 import scrapy
 
+
 class DmozItem(scrapy.Item):
     """Item object to store title, link, description"""
 
     title = scrapy.Field()
     link = scrapy.Field()
     desc = scrapy.Field()
+
 
 class DmozSpider(scrapy.Spider):
     """

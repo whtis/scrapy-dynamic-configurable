@@ -28,8 +28,8 @@ $ sudo apt-get install redis-server mysql-server mysql-client
 $ pip install scrapy
 $ pip install SQLAlchemy
 $ pip install redis
+$ pip install pymysql
 ```
 **and restore datatables from 'db.sql'**
 
-It is for scrapy 1.0 .
-It is for scrapy 1.0 .
+It is for scrapy 1.4 & use python 3.6
